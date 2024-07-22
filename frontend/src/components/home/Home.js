@@ -1,8 +1,9 @@
 import React from 'react'
+import Hero from '../hero/Hero'
 
-function Home() {
+function Home({movies}) {
   return (
-    <div>Home</div>
+   <Hero movies ={movies} />
   )
 }
 
